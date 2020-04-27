@@ -1,0 +1,247 @@
+/*** --------------------- Given --------------------- ***/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*** --------------------- Mine --------------------- ***/
+
+/* Smartphones (portrait) ---------------------------------------------------- */
+@media only screen and (max-width: 1224px) {
+  body {
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  /* Head Wrapper */
+
+  #headwrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #headwrapper h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #desc {
+    display: flex;
+    justify-content: center;
+  }
+
+  #headwrapper p {
+    text-align: center;
+    width: 500px;
+    margin: 0px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  #headwrapper #emphasis {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  #headwrapper h1 {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    margin: 4px;
+  }
+
+  /* Box Wrapper */
+
+  #boxwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #column2 {
+    flex-direction: column;
+  }
+
+  /* Boxes */
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 30px;
+    width: 325px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: hsla(229, 6%, 66%, 0.842) 0px 10px 30px;
+  }
+
+  .box h2 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+  }
+
+  .box p {
+    font-weight: 200;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+  }
+
+  #box1 {
+    border-top: solid hsl(180, 62%, 55%) 4px;
+  }
+
+  #box2 {
+    border-top: solid hsl(0, 78%, 62%) 4px;
+  }
+
+  #box3 {
+    border-top: solid hsl(34, 97%, 64%) 4px;
+    display: flex;
+  }
+
+  #box4 {
+    border-top: solid hsl(212, 86%, 64%) 4px;
+    display: flex;
+    align-content: space-between;
+  }
+
+  .boxicon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    padding-right: 5px;
+  }
+}
+
+/* Desktops and laptops ---------------------------------------------------- */
+@media only screen and (min-width: 1225px) {
+  body {
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  /* Head Wrapper */
+
+  #headwrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #headwrapper h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #desc {
+    display: flex;
+    justify-content: center;
+  }
+
+  #headwrapper p {
+    text-align: center;
+    width: 500px;
+    margin: 0px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  #headwrapper #emphasis {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  #headwrapper h1 {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    margin: 4px;
+  }
+
+  /* Box Wrapper */
+
+  #boxwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .column {
+    display: inline-flex;
+  }
+
+  #column2 {
+    flex-direction: column;
+  }
+
+  /* Boxes */
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 30px;
+    width: 325px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: hsla(229, 6%, 66%, 0.842) 0px 10px 30px;
+  }
+
+  .box h2 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+  }
+
+  .box p {
+    font-weight: 200;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+  }
+
+  #box1 {
+    border-top: solid hsl(180, 62%, 55%) 4px;
+  }
+
+  #box2 {
+    border-top: solid hsl(0, 78%, 62%) 4px;
+  }
+
+  #box3 {
+    border-top: solid hsl(34, 97%, 64%) 4px;
+    display: flex;
+  }
+
+  #box4 {
+    border-top: solid hsl(212, 86%, 64%) 4px;
+    display: flex;
+    align-content: space-between;
+  }
+
+  .boxicon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    padding-right: 5px;
+  }
+}
